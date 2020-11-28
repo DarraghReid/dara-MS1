@@ -12,44 +12,79 @@
 </html>
 
 <body>
-    <header>
-    <!--------------navbar---------------->
-        <nav class="navbar">
-    <!--------------logo---------------->
-            <div class="logo">
-                <a href="index.html">DaRa</a>
-            </div>
-    <!--------------menu---------------->
-            <div class="nav-items">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="listen.html">Listen</a></li>
-                    <li class="no-border"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="slider-container">
+        <header>
+        <!--------------navbar---------------->
+            <nav class="navbar">
+        <!--------------logo---------------->
+                <div class="logo">
+                    <a href="index.html">DaRa</a>
+                </div>
+        <!--------------menu---------------->
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="listen.html">Listen</a></li>
+                        <li class="no-border"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
     <!--------------slider---------------->
-    <div class="slider-container">
+    
+        <input type="radio" name="images" class="radio-img" id="img-1" checked>
+        <input type="radio" name="images" class="radio-img" id="img-2">
+        <input type="radio" name="images" class="radio-img" id="img-3">
+        <input type="radio" name="images" class="radio-img" id="img-4">
+        <input type="radio" name="images" class="radio-img" id="img-5">
+
         <div class="img" id="pic-1">
             <img src="assets/images/pic-1.jpg" alt="DaRa playing guitar on beach">
+
+            <label for="img-5" class="pre"><span>&lt;</span></label>
+            <label for="img-2" class="nxt"><span>&gt;</span></label>
+
         </div>
 
         <div class="img" id="pic-2">
             <img src="assets/images/pic-2.jpg" alt="DaRa performing on stage">
+
+            <label for="img-1" class="pre"><span>&lt;</span></label>
+            <label for="img-3" class="nxt"><span>&gt;</span></label>
+
         </div>
 
         <div class="img" id="pic-3">
             <img src="assets/images/pic-3.jpg" alt="Close up of guitar">
+
+            <label for="img-2" class="pre"><span>&lt;</span></label>
+            <label for="img-4" class="nxt"><span>&gt;</span></label>
+
         </div>
 
         <div class="img" id="pic-4">
             <img src="assets/images/pic-4.jpg" alt="DaRa playing guitar in studio">
+
+            <label for="img-3" class="pre"><span>&lt;</span></label>
+            <label for="img-5" class="nxt"><span>&gt;</span></label>
+
         </div>
 
         <div class="img" id="pic-5">
             <img src="assets/images/pic-5.jpg" alt="DaRa recording in studio">
+
+            <label for="img-4" class="pre"><span>&lt;</span></label>
+            <label for="img-1" class="nxt"><span>&gt;</span></label>
+
+        </div>
+
+        <div class="nav">
+            <label class="bars" id="bar-1" for="img-1"></label>
+            <label class="bars" id="bar-2" for="img-2"></label>
+            <label class="bars" id="bar-3" for="img-3"></label>
+            <label class="bars" id="bar-4" for="img-4"></label>
+            <label class="bars" id="bar-5" for="img-5"></label>
         </div>
     </div>
 </body>
