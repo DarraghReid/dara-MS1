@@ -9,7 +9,6 @@ body {
 .navbar {
     background-color: rgba(183, 110, 121, .4);
     max-height: 80px;
-    flex-wrap: nowrap;
     position: absolute;
     z-index: 10;
     width: 100vw;
@@ -26,14 +25,11 @@ body {
     text-decoration: none;
 }
 
-.nav-items {
-    margin-top: 16px;
-}
-
 div ul li {
     display: inline-block;
     border-right: 1px solid;
-    padding: 15px;
+    padding: 0 15px;
+    margin: 0;
     font-size: 25px;
     font-weight: 300;
     color: rgb(183, 110, 121);
@@ -41,11 +37,20 @@ div ul li {
 
 div ul li a {
     color: rgb(45, 240, 240);
-    text-decoration: none;
 }
 
 .no-border {
     border-right: none;
+}
+
+.navbar-toggler-icon {
+    color: rgb(45, 240, 240);
+    margin-top: 30%;
+    font-size: 1.5em;
+}
+
+.navbar-collapse {
+    text-align: right;
 }
 
 /*---------------------------------------------------slider*/
@@ -71,6 +76,7 @@ div ul li a {
     object-fit: cover;
 }
 
+/*---------------------------------------------------slider-arrows*/
 .radio-img {
     display: none;
 }
@@ -99,10 +105,11 @@ div ul li a {
     right: 25px;
 }
 
-.nxt span {
+.nxt div {
     margin-top: 40px;
 }
 
+/*---------------------------------------------------slider-bars*/
 .nav-wrapper {
     width: 100%;
     display: flex;
@@ -112,7 +119,7 @@ div ul li a {
 .nav {
     width: 15%;
     height: 20px;
-    bottom: 12%;
+    bottom: 5%;
     border-radius: 23px;
     background-color: rgba(183, 110, 121, .4);
     position: absolute;
@@ -131,6 +138,7 @@ div ul li a {
     background-color: rgba(45, 240, 240, .3);
 }
 
+/*---------------------------------------------------checked-image-settings*/
 #img-1:checked ~ #pic-1,
 #img-2:checked ~ #pic-2,
 #img-3:checked ~ #pic-3,
@@ -139,6 +147,7 @@ div ul li a {
     z-index: 9;
 }
 
+/*---------------------------------------------------checked-bar-settings*/
 #img-1:checked ~ .nav-wrapper .nav #bar-1,
 #img-2:checked ~ .nav-wrapper .nav #bar-2,
 #img-3:checked ~ .nav-wrapper .nav #bar-3,
@@ -147,6 +156,55 @@ div ul li a {
     background-color: rgb(45, 240, 240);
 }
 
+/*---------------------------------------------------callout*/
+article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article h1 {
+    position: absolute;
+    top: 54%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    color: rgba(45, 240, 240);
+    text-shadow: 1px 1px 60px black;
+    z-index: 10;
+}
+
+article h1 div {
+    font-family: "Big Shoulders Inline Text";
+    font-weight: 900;
+    color: rgba(45, 240, 240);
+    border-radius: 23px;
+    padding: 0px 15px;
+}
+
+.btn {
+    position: absolute;
+    top: 75%;
+    padding: 10px 55px;
+    border-radius: 35px;
+    color: rgb(183, 110, 121);
+    font-size: 2em;
+    font-weight: 600;
+    background-color: rgba(45, 240, 240, .9);
+    z-index: 10;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+    background-color: rgba(183, 110, 121, .9);
+    color: rgb(45, 240, 240);
+}
+
+
+/*---------------------------------------------------media-queries*/
 @media(max-width: 700px) {
 
     #pic-4 img {
@@ -163,7 +221,41 @@ div ul li a {
         height: 100%;
         margin-left: -400px;
     }
+
+    .pre {
+        left: 8px;
+    }
+
+    .nxt {
+        right: 8px;
+    }
 }
+
+@media(max-width: 575px) {
+    .nav-item {
+        width: 100%;
+        border: none;
+        background-color: rgba(183, 110, 121, .4);
+        margin-top: 2px;
+        float: right;
+        border-radius: 23px;
+    }
+
+    .navbar-nav {
+        margin-top: 3px;
+        margin-right: -14px;
+    }
+
+    article h1 {
+        font-size: 30px;
+    }
+
+    article h1 div {
+        font-size: 40px;
+    }
+}
+
+
 
 @media(max-width: 389px) {
 
@@ -183,6 +275,32 @@ div ul li a {
         width: 210vw;
         height: 100%;
         margin-left: -250px;
-    
+    }
+
+    article h1 {
+        font-size: 27px;
+    }
+
+    article h1 div {
+        margin-top: 22px;
+    }
 }
 
+@media(max-width: 338px)  {
+    .pre {
+        left: 8px;
+    }
+
+    .nxt {
+        right: 8px;
+    }
+
+    article h1 {
+        font-size: 20px;
+    }
+
+    article h1 div {
+        font-size: 38px;
+        margin-top: 25px;
+    }
+}
