@@ -168,7 +168,6 @@ article h1 {
     position: absolute;
     top: 54%;
     text-align: center;
-    justify-content: center;
     font-weight: 400;
     color: rgba(45, 240, 240);
     text-shadow: 1px 1px 60px black;
@@ -203,6 +202,108 @@ article h1 div {
     color: rgb(45, 240, 240);
 }
 
+/*---------------------------------------------------about*/
+#about {
+    position: relative;
+    width: 100%;
+}
+
+#about h1 {
+    width: 100;
+    text-align: center;
+    font-family: "Big Shoulders Inline Text";
+    font-weight: 900;
+    font-size: 50px;
+    margin: 2% 0 1%;
+    color: rgb(45, 240, 240);
+}
+
+#outer-circle {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border-bottom: 1px solid rgb(45, 240, 240);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#mid-circle {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border-right: 1px solid rgb(45, 240, 240);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-circle {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border-top: 1px solid rgb(45, 240, 240);
+    border-left: 1px solid rgb(45, 240, 240);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-pic {
+    display: flex;
+    justify-content: center;
+}
+
+#about-pic img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(183, 110, 121);
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.info-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 20%;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.info h2:hover {
+    font-size: 180%;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 150%;
+    color: rgb(183, 110, 121);
+}
+
+.info p {
+    color: rgb(95, 97, 99);
+}
+
+#info-singer, #info-performer {
+}
+
+#info-instrumentalist, #info-composer {
+}
 
 /*---------------------------------------------------media-queries*/
 @media(max-width: 700px) {
@@ -254,8 +355,6 @@ article h1 div {
         font-size: 40px;
     }
 }
-
-
 
 @media(max-width: 389px) {
 
