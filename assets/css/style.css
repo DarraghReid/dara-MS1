@@ -182,10 +182,10 @@ article h1 div {
     padding: 0px 15px;
 }
 
-.btn {
+.cta-home {
     position: absolute;
     top: 75%;
-    padding: 10px 55px;
+    padding: 10px 40px;
     border-radius: 35px;
     color: rgb(183, 110, 121);
     font-size: 2em;
@@ -214,27 +214,31 @@ article h1 div {
     font-family: "Big Shoulders Inline Text";
     font-weight: 900;
     font-size: 50px;
-    margin: 2% 0 1%;
-    color: rgb(45, 240, 240);
+    margin: 1% 0 .5%;
+    color: rgb(183, 110, 121);
 }
 
 #outer-circle {
     position: relative;
-    width: 360px;
-    height: 360px;
+    width: 340px;
+    height: 340px;
     border-radius: 50%;
     border-bottom: 1px solid rgb(45, 240, 240);
     align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
+}
+
+#outer-circle:hover {
+    border-bottom: 1px solid white;
+    border-top: 1px solid rgb(45, 240, 240);
 }
 
 #mid-circle {
     position: absolute;
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     border-right: 1px solid rgb(45, 240, 240);
     align-items: center;
@@ -243,10 +247,15 @@ article h1 div {
     align-items: center;
 }
 
+#mid-circle:hover {
+    border-right: 1px solid white;
+    border-left: 1px solid rgb(45, 240, 240);
+}
+
 #inner-circle {
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border-top: 1px solid rgb(45, 240, 240);
     border-left: 1px solid rgb(45, 240, 240);
@@ -256,23 +265,32 @@ article h1 div {
     align-items: center;
 }
 
+#inner-circle:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(45, 240, 240);
+}
+
 #about-pic {
     display: flex;
     justify-content: center;
 }
 
 #about-pic img {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     border: 1px solid rgb(183, 110, 121);
     border-radius: 50%;
     object-fit: cover;
     align-items: center;
 }
 
+#about-pic img:hover {
+    width: 360px;
+    height: 360px;
+}
+
 .info-container {
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: .5% 0;
     display: flex;
     justify-content: center;
 }
@@ -282,7 +300,6 @@ article h1 div {
     display: inline-block;
     margin: 0 15px;
     text-align: center;
-    margin-top: -25px;
 }
 
 .info h2:hover {
@@ -303,6 +320,22 @@ article h1 div {
 }
 
 #info-instrumentalist, #info-composer {
+}
+
+#cta-about-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1%;
+}
+
+.cta-about {
+    border-radius: 35px;
+    color: rgba(45, 240, 240, .9);
+    font-size: 2em;
+    font-weight: 600;
+    background-color: rgb(183, 110, 121);
+    padding: 5px 20px;
 }
 
 /*---------------------------------------------------media-queries*/
