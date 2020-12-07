@@ -205,6 +205,7 @@ article h1 div {
 /*---------------------------------------------------about*/
 #about {
     position: relative;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -214,7 +215,7 @@ article h1 div {
     font-family: "Big Shoulders Inline Text";
     font-weight: 900;
     font-size: 50px;
-    margin: 1% 0 .5%;
+    margin: 1% 0 -.5%;
     color: rgb(183, 110, 121);
 }
 
@@ -300,20 +301,16 @@ article h1 div {
     display: inline-block;
     margin: 0 15px;
     text-align: center;
-}
-
-.info h2:hover {
-    font-size: 180%;
+    color: rgb(95, 97, 99);
 }
 
 .info h2 {
-    text-align: center;
     font-size: 150%;
     color: rgb(183, 110, 121);
 }
 
-.info p {
-    color: rgb(95, 97, 99);
+.info h2:hover {
+    font-size: 180%;
 }
 
 #info-singer, #info-performer {
@@ -338,7 +335,69 @@ article h1 div {
     padding: 5px 20px;
 }
 
+/*---------------------------------------------------carousel*/
+#carousel-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-indicators {
+    margin-bottom: -10px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(183, 110, 121);
+    margin-bottom: 10px;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    color: rgb(183, 110, 121);
+    font-size: 50px;
+}
+
+.carousel-item {
+    text-align: center;
+    color: rgb(95, 97, 99);
+}
+
+.carousel-item h2 {
+    color: rgb(183, 110, 121);
+}
+
 /*---------------------------------------------------media-queries*/
+@media(max-width: 965px) {
+
+    .info-container {
+        display: none;
+    }
+}
+
+@media(min-width: 965px) {
+
+    #carousel-container {
+        display: none;
+    }
+}
+
 @media(max-width: 700px) {
 
     #pic-4 img {
