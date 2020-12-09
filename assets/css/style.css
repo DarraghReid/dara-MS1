@@ -383,28 +383,86 @@ article h1 div {
 }
 
 /*---------------------------------------------------video-section*/
-.row {
-    margin: 20px 0;
+#video-section {
+    background-color: rgba(183, 110, 121);
 }
-.col-md-4 {
-    overflow: hidden;
+
+#video-section h1 {
+    text-align: center;
+    font-family: "Big Shoulders Inline Text";
+    color: rgb(45, 240, 240);
+    font-weight: 900;
+    font-size: 50px;
+    padding: 20px 0 0;
+    margin-bottom: 0;
+}
+
+#video-row {
+    margin: 5px;
+    padding-bottom: 20px;
+}
+.video {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 iframe {
-    margin: 20px;
+    margin: 20px 0;
     width: 100%;
 }
 
 /*---------------------------------------------------contact-section*/
 #contact h1 {
     text-align: center;
+    font-family: "Big Shoulders Inline Text";
+    color: rgba(183, 110, 121);
+    font-weight: 900;
+    font-size: 50px;
+    padding: 20px 0 0;
+    margin-bottom: 0;
 }
 
 .contact-heading {
     text-align: center;
+    color: rgba(183, 110, 121);
+    margin: 40px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+
+.contact-element-row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-element {
+    margin: 20px;
+    color: rgba(45, 240, 240, .8);
+}
+
+.contact-element p {
+    overflow: hidden;
+    font-size: 2.2vw;
+    color: rgb(95, 97, 99);
+    margin-top: 35px;
+}
+
+.contact-element span {
+    font-size: 40px;
+    color: rgb(95, 97, 99);
+    margin: 35px 0;
+}
+
+hr {
+    width: 60%;
+    background-color: rgba(183, 110, 121);
+    margin-top: -20px;
 }
 
 /*---------------------------------------------------media-queries*/
@@ -424,6 +482,10 @@ iframe {
 
 @media(max-width: 700px) {
 
+    .contact-element p {
+        font-size: 2vw;
+    }
+    
     #pic-4 img {
         width: 210vw;
         height: 100%;
