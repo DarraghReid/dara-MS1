@@ -497,6 +497,7 @@ hr {
     display: flex;
     justify-content: center;
     color: rgba(183, 110, 121);
+    margin: 30px;
 }
 
 form {
@@ -508,7 +509,21 @@ form textarea {
     margin-bottom: 25px;
 }
 
+#message-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+#message-btn {
+    border-style: none;
+    border-radius: 35px;
+    color: rgba(45, 240, 240, .9);
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: rgb(183, 110, 121);
+    padding: 6px 24px;
+}
 
 /*---------------------------------------------------media-queries*/
 @media(max-width: 965px) {
