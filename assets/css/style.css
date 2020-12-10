@@ -491,6 +491,25 @@ hr {
     margin-top: -20px;
 }
 
+/*---------------------------------------------------contact-form*/
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgba(183, 110, 121);
+}
+
+form {
+    width: 50%;
+    font-size: 25px;
+}
+form input,
+form textarea {
+    margin-bottom: 25px;
+}
+
+
+
 /*---------------------------------------------------media-queries*/
 @media(max-width: 965px) {
 
