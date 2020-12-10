@@ -411,7 +411,7 @@ iframe {
     width: 100%;
 }
 
-/*---------------------------------------------------contact-section*/
+/*---------------------------------------------------contact-section-1*/
 #contact h1 {
     text-align: center;
     font-family: "Big Shoulders Inline Text";
@@ -457,6 +457,32 @@ iframe {
     font-size: 40px;
     color: rgb(95, 97, 99);
     margin: 35px 0;
+}
+
+/*---------------------------------------------------contact-section-2*/
+.contact-row {
+    margin: 70px 0;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(95, 97, 99);
+}
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    color: rgb(95, 97, 99);
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgba(45, 240, 240, .8);
 }
 
 hr {
@@ -511,6 +537,11 @@ hr {
 }
 
 @media(max-width: 575px) {
+
+    .contact-section-1 {
+        display: none;
+    }
+
     .nav-item {
         width: 100%;
         border: none;
@@ -531,6 +562,13 @@ hr {
 
     article h1 div {
         font-size: 40px;
+    }
+}
+
+@media(min-width: 575px){
+
+    .contact-section-2{
+        display: none;
     }
 }
 
