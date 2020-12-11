@@ -312,12 +312,6 @@ article h1 div {
     font-size: 180%;
 }
 
-#info-singer, #info-performer {
-}
-
-#info-instrumentalist, #info-composer {
-}
-
 #cta-about-wrapper {
     width: 100%;
     display: flex;
@@ -518,11 +512,62 @@ form textarea {
 #message-btn {
     border-style: none;
     border-radius: 35px;
-    color: rgba(45, 240, 240, .9);
+    color: rgba(45, 240, 240);
     font-size: 1.3em;
     font-weight: 600;
     background-color: rgb(183, 110, 121);
     padding: 6px 24px;
+}
+
+/*---------------------------------------------------footer*/
+footer {
+    background-color: rgb(183, 110, 121);
+    color: rgb(45, 240, 240);
+    height: 80px;
+}
+
+#ftr-element-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ftr-element {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play-btn {
+    width: 20%;
+    border-right: 1px solid;
+    color: rgb(45, 240, 240);
+}
+
+#play-btn a {
+    color: rgb(45, 240, 240);
+    font-size: 40px;
+}
+
+#cnt-info {
+    width: 69%;
+    border-right: 1px solid;
+}
+
+#social-links {
+    width: 20%;
+}
+
+#social-links div {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+#social-links div a {
+    color: rgb(45, 240, 240);
+    font-size: 3vw;
 }
 
 /*---------------------------------------------------media-queries*/
