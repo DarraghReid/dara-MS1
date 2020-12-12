@@ -26,7 +26,8 @@
 
                 <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="active nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="listen.html">Listen</a></li>
                         <li class="nav-item no-border"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
@@ -207,6 +208,7 @@
         <div class="container-fluid">
             <div class="row" id="video-row">
                 <div class="col-6 col-md-4 video">
+                    <h2>video</h2>
                     <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/DX_i_8PGkDc" 
                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                      allowfullscreen></iframe>
@@ -345,12 +347,32 @@
             </form>
         </div>
     </section>
+    <!--------------footer---------------->
     <footer>
         <section id="ftr-element-container">
+            <!--------------link-to-videos---------------->
             <div id="play-btn" class="ftr-element">
                 <a href="#"><i class="far fa-play-circle"></i></a>
             </div>
-            <div id="cnt-info" class="ftr-element"></div>
+            <!--------------contact-footer-1 (seen on screen sizes above 965px)---------------->
+            <div id="cnt-info-wrapper-1" class="ftr-element">
+                <div class="cnt-info">
+                    <div><i class="fas fa-phone-alt"></i></div>
+                    <div><p>0892510667</p></div>
+                </div>
+                <div class="cnt-info">
+                    <div><i class="fas fa-at"></i></div>
+                    <div><p>darrragh.reid@gmail.com</p></div>
+                </div>
+            </div>
+            <!--------------contact-footer-2 (seen on screen sizes below 965px)---------------->
+            <div id="cnt-info-wrapper-2" class="ftr-element">
+                <div class="cnt-info-2">
+                    <div><p><i class="fas fa-phone-alt"></i>0892510667</p></div>
+                    <div><p><i class="fas fa-at"></i>darrragh.reid@gmail.com</p></div>
+                </div>
+            </div>
+            <!--------------social-links---------------->
             <div id="social-links" class="ftr-element">
                 <div><a href="#"><i class="fab fa-facebook"></i></a></div>
                 <div><a href="#"><i class="fab fa-youtube-square"></i></a></div>

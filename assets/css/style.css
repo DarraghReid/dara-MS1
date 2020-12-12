@@ -3,6 +3,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*---------------------------------------------------header*/
@@ -28,9 +30,9 @@ body {
 div ul li {
     display: inline-block;
     border-right: 1px solid;
-    padding: 0 15px;
+    padding: 0 5px;
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: rgb(183, 110, 121);
 }
@@ -90,7 +92,6 @@ div ul li a {
     z-index: 99;
     cursor: pointer;
     font-size: 50px;
-    background-color: rgba(183, 110, 121, .4);
     color: rgb(45, 240, 240);
     z-index: 999;
     text-align: center;
@@ -117,23 +118,21 @@ div ul li a {
 }
 
 .nav {
-    width: 15%;
+    min-width: 100px;
     height: 20px;
     bottom: 5%;
-    border-radius: 23px;
-    background-color: rgba(183, 110, 121, .4);
     position: absolute;
     margin: auto;
     justify-content: center;
     align-items: center;
     z-index: 99;
+    flex-wrap: nowrap;
 }
 
 .bars {
-    width: 12%;
-    height: 5px;
-    border-radius: 23px;
-    margin: 0 3%;
+    width: 4vw;
+    height: 3px;
+    margin: 0 3px;
     position: relative;
     background-color: rgba(45, 240, 240, .3);
 }
@@ -550,9 +549,45 @@ footer {
     font-size: 40px;
 }
 
-#cnt-info {
-    width: 69%;
+#cnt-info-wrapper-1 {
+    width: 60%;
     border-right: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.cnt-info {
+    width: 100%;
+}
+
+.cnt-info div {
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 5%;
+}
+
+.cnt-info i {
+    font-size: 2vw;
+    margin-right: 2vw;
+}
+
+.cnt-info p {
+    font-size: 1.7vw;
+}
+
+#cnt-info-wrapper-2 {
+    width: 60%;
+    border-right: 1px solid;
+}
+
+.cnt-info-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cnt-info-2 i {
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 #social-links {
@@ -576,11 +611,23 @@ footer {
     .info-container {
         display: none;
     }
+
+    #cnt-info-wrapper-1 {
+        display: none;
+    }
+
+    #social-links div a {
+        font-size: 4vw;
+    }
 }
 
 @media(min-width: 965px) {
 
     #carousel-container {
+        display: none;
+    }
+
+    #cnt-info-wrapper-2 {
         display: none;
     }
 }
@@ -677,6 +724,14 @@ footer {
     #about-pic img {
         width: 260px;
         height: 260px;
+    }
+
+    .cnt-info-2 p {
+        font-size: 3vw;
+    }
+
+    .cnt-info-2 i {
+        font-size: 4vw;
     }
 
 }
