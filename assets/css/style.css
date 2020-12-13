@@ -31,14 +31,17 @@ div ul li {
     display: inline-block;
     border-right: 1px solid;
     padding: 0 5px;
-    margin: 0;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     color: rgb(183, 110, 121);
 }
 
 div ul li a {
     color: rgb(45, 240, 240);
+}
+
+div ul li a:hover {
+    color: rgba(45, 240, 240, .7);
 }
 
 .no-border {
@@ -58,7 +61,6 @@ div ul li a {
 /*---------------------------------------------------slider*/
 
 .slider-container {
-    margin: 0 auto;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -88,14 +90,11 @@ div ul li a {
     height: 75px;
     position: absolute;
     top: 50%;
-    border-radius: 23px;
     z-index: 99;
     cursor: pointer;
     font-size: 50px;
     color: rgb(45, 240, 240);
-    z-index: 999;
-    text-align: center;
-    justify-content: center;
+    z-index: 10;
 }
 
 .pre {
@@ -106,12 +105,8 @@ div ul li a {
     right: 25px;
 }
 
-.nxt div {
-    margin-top: 40px;
-}
-
 /*---------------------------------------------------slider-bars*/
-.nav-wrapper {
+#nav-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -120,12 +115,9 @@ div ul li a {
 .nav {
     min-width: 100px;
     height: 20px;
-    bottom: 5%;
+    bottom: 3%;
     position: absolute;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
+    z-index: 10;
     flex-wrap: nowrap;
 }
 
@@ -133,7 +125,6 @@ div ul li a {
     width: 3.5vw;
     height: 3px;
     margin: 0 3px;
-    position: relative;
     background-color: rgba(45, 240, 240, .3);
 }
 
@@ -147,23 +138,23 @@ div ul li a {
 }
 
 /*---------------------------------------------------checked-bar-settings*/
-#img-1:checked ~ .nav-wrapper .nav #bar-1,
-#img-2:checked ~ .nav-wrapper .nav #bar-2,
-#img-3:checked ~ .nav-wrapper .nav #bar-3,
-#img-4:checked ~ .nav-wrapper .nav #bar-4,
-#img-5:checked ~ .nav-wrapper .nav #bar-5 {
+#img-1:checked ~ #nav-wrapper .nav #bar-1,
+#img-2:checked ~ #nav-wrapper .nav #bar-2,
+#img-3:checked ~ #nav-wrapper .nav #bar-3,
+#img-4:checked ~ #nav-wrapper .nav #bar-4,
+#img-5:checked ~ #nav-wrapper .nav #bar-5 {
     background-color: rgb(45, 240, 240);
 }
 
 /*---------------------------------------------------callout*/
-article {
+#callout {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-article h1 {
+#callout h1 {
     position: absolute;
     top: 54%;
     text-align: center;
@@ -173,7 +164,7 @@ article h1 {
     z-index: 10;
 }
 
-article h1 div {
+#callout h1 div {
     font-family: "Big Shoulders Inline Text";
     font-weight: 900;
     color: rgba(45, 240, 240);
@@ -183,6 +174,7 @@ article h1 div {
 
 .cta-home {
     text-decoration: none;
+    text-shadow: none;
     padding: 10px 30px;
     border-radius: 35px;
     color: rgb(183, 110, 121);
@@ -223,7 +215,6 @@ article h1 div {
     height: 340px;
     border-radius: 50%;
     border-bottom: 1px solid rgb(45, 240, 240);
-    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +279,7 @@ article h1 div {
     height: 360px;
 }
 
-.info-container {
+#info-container {
     margin: .5% 0;
     display: flex;
     justify-content: center;
@@ -318,7 +309,7 @@ article h1 div {
     margin: 0 0 1%;
 }
 
-.cta-about {
+#cta-about {
     border-radius: 35px;
     color: rgba(45, 240, 240, .9);
     font-size: 2em;
@@ -401,7 +392,7 @@ article h1 div {
 
 iframe {
     margin: 20px 0;
-    width: 100%;
+    height: 56.25%;
 }
 
 /*---------------------------------------------------contact-section-1*/
@@ -608,7 +599,7 @@ footer {
 /*---------------------------------------------------media-queries-width*/
 @media(max-width: 965px) {
 
-    .info-container {
+    #info-container {
         display: none;
     }
 
@@ -664,7 +655,7 @@ footer {
 
 @media(max-width: 575px) {
 
-    .contact-section-1 {
+    #contact-section-1 {
         display: none;
     }
 
@@ -682,18 +673,18 @@ footer {
         margin-right: -14px;
     }
 
-    article h1 {
+    #callout h1 {
         font-size: 30px;
     }
 
-    article h1 div {
+    #callout h1 div {
         font-size: 40px;
     }
 }
 
 @media(min-width: 575px){
 
-    .contact-section-2{
+    #contact-section-2{
         display: none;
     }
 }
@@ -756,11 +747,11 @@ footer {
         margin-left: -250px;
     }
 
-    article h1 {
+    #callout h1 {
         font-size: 27px;
     }
 
-    article h1 div {
+    #callout h1 div {
         margin-top: 22px;
     }
 
@@ -809,11 +800,11 @@ footer {
         right: 8px;
     }
 
-    article h1 {
+    #callout h1 {
         font-size: 20px;
     }
 
-    article h1 div {
+    #callout h1 div {
         font-size: 38px;
         margin-top: 25px;
     }
@@ -856,41 +847,37 @@ footer {
 
 /*---------------------------------------------------media-queries-height*/
 @media(max-height: 460px) {
-    article h1 {
+    #callout h1 {
     font-size: 35px;
     }
 }
 
 @media(max-height: 415px) {
-    article h1 {
+    #callout h1 {
     font-size: 30px;
     }
 }
 
 @media(max-height: 365px) {
-    article h1 {
+    #callout h1 {
     font-size: 27px;
     }
 }
 
 @media(max-height: 335px) {
-    article h1 {
+    #callout h1 {
     font-size: 25px;
     }
 }
 
 @media(max-height: 315px) {
-    article h1 {
+    #callout h1 {
     font-size: 23px;
     }
 }
 
 @media(max-height: 295px) {
-    article h1 {
+    #callout h1 {
     font-size: 20px;
     }
 }
-
-
-
-
