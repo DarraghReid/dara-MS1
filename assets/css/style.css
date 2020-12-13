@@ -318,6 +318,12 @@ div ul li a:hover {
     padding: 5px 20px;
 }
 
+#cta-about:hover {
+    text-decoration: none;
+    background-color: rgb(45, 240, 240);
+    color: rgba(183, 110, 121, .9);
+}
+
 /*---------------------------------------------------carousel*/
 #carousel-container {
     width: 100%;
@@ -368,7 +374,9 @@ div ul li a:hover {
 
 /*---------------------------------------------------video-section*/
 #video-section {
+    width: 100%;
     background-color: rgba(183, 110, 121);
+    min-height: 100vh;
 }
 
 #video-section h1 {
@@ -378,21 +386,60 @@ div ul li a:hover {
     font-weight: 900;
     font-size: 50px;
     padding: 20px 0 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 #video-row {
     margin: 5px;
-    padding-bottom: 20px;
 }
 .video {
     display: flex;
     justify-content: center;
 }
 
+.video-header {
+    position: absolute;
+    font-size: 10px;
+}
+
+.video-header h3 {
+    font-size: 20px;
+}
+
 iframe {
-    margin: 20px 0;
-    height: 56.25%;
+    margin: 35px 0;
+}
+
+#youtube-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#youtube-btn {
+    color: rgba(45, 240, 240);
+    margin-bottom: 20px;
+}
+
+#cta-contact-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cta-contact {
+    border-radius: 35px;
+    color: rgb(183, 110, 121);
+    font-size: 2em;
+    font-weight: 600;
+    background-color: rgba(45, 240, 240);
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+#cta-contact:hover {
+    text-decoration: none;
+    background-color: rgba(45, 240, 240, .8);
 }
 
 /*---------------------------------------------------contact-section-1*/
