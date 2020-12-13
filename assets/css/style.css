@@ -130,7 +130,7 @@ div ul li a {
 }
 
 .bars {
-    width: 4vw;
+    width: 3.5vw;
     height: 3px;
     margin: 0 3px;
     position: relative;
@@ -177,28 +177,28 @@ article h1 div {
     font-family: "Big Shoulders Inline Text";
     font-weight: 900;
     color: rgba(45, 240, 240);
-    border-radius: 23px;
     padding: 0px 15px;
+    margin-bottom: 10px;
 }
 
 .cta-home {
-    position: absolute;
-    top: 75%;
-    padding: 10px 40px;
+    text-decoration: none;
+    padding: 10px 30px;
     border-radius: 35px;
     color: rgb(183, 110, 121);
-    font-size: 2em;
+    font-size: .8em;
     font-weight: 600;
     background-color: rgba(45, 240, 240, .9);
     z-index: 10;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus,
-.btn:active:focus {
+.cta-home:hover,
+.cta-home:active,
+.cta-home:focus,
+.cta-home:active:focus {
     background-color: rgba(183, 110, 121, .9);
     color: rgb(45, 240, 240);
+    text-decoration: none;
 }
 
 /*---------------------------------------------------about*/
@@ -605,7 +605,7 @@ footer {
     font-size: 3vw;
 }
 
-/*---------------------------------------------------media-queries*/
+/*---------------------------------------------------media-queries-width*/
 @media(max-width: 965px) {
 
     .info-container {
@@ -853,3 +853,44 @@ footer {
         height: 220px;
     }
 }
+
+/*---------------------------------------------------media-queries-height*/
+@media(max-height: 460px) {
+    article h1 {
+    font-size: 35px;
+    }
+}
+
+@media(max-height: 415px) {
+    article h1 {
+    font-size: 30px;
+    }
+}
+
+@media(max-height: 365px) {
+    article h1 {
+    font-size: 27px;
+    }
+}
+
+@media(max-height: 335px) {
+    article h1 {
+    font-size: 25px;
+    }
+}
+
+@media(max-height: 315px) {
+    article h1 {
+    font-size: 23px;
+    }
+}
+
+@media(max-height: 295px) {
+    article h1 {
+    font-size: 20px;
+    }
+}
+
+
+
+
