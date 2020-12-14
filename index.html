@@ -13,12 +13,12 @@
 
 <body>
     
-        <header>
+        <header id="home">
         <!--------------navbar---------------->
             <nav class="navbar navbar-expand-sm">
         <!--------------logo---------------->
                 <div class="logo">
-                    <a href="index.html">DaRa</a>
+                    <a href="#home">DaRa</a>
                 </div>
         <!--------------menu---------------->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +26,10 @@
 
                 <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item "><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="listen.html">Listen</a></li>
-                        <li class="nav-item no-border"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="active nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#video-section">Listen</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item no-border"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>    
             </nav>
@@ -89,7 +89,7 @@
             <h1>
                 Your favourite songs
                 <div>RELAXED</div>
-                <a href="listen.html" class="cta-home"><i class="fas fa-headphones"></i> Listen</a>
+                <a href="#video-section" class="cta-home"><i class="fas fa-headphones"></i> Listen</a>
             </h1>
         </article>
 
@@ -196,7 +196,7 @@
             </div>
         </div>
         <div id="cta-about-wrapper">
-                    <a href="listen.html" id="cta-about"><i class="fas fa-headphones"></i> Listen</a>
+                    <a href="#video-section" id="cta-about"><i class="fas fa-headphones"></i> Listen</a>
         </div>
     </section>
 
@@ -244,8 +244,8 @@
                 </div>
             </div>
         </div>
-        <div id="youtube-btn-wrapper"><a id="youtube-btn" href="#"><i class="fab fa-youtube"></i> Watch on YouTube</a></div>
-        <div id="cta-contact-wrapper"><a id="cta-contact" href="#">About DaRa</a></div>
+        <div id="youtube-btn-wrapper"><a id="youtube-btn" href="https://www.youtube.com/channel/UCJtS-z9cAp3Bfs5aXOvpEgw" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a></div>
+        <div id="cta-contact-wrapper"><a id="cta-contact" href="#contact"><i class="fas fa-phone-alt"></i> Contact</a></div>
     </section>
 
     <section id="contact">
@@ -291,17 +291,17 @@
                 <div class="col-4">
                     <div class="row">
                         <div class="col contact-element">
-                            <i class="fab fa-facebook"></i>
+                            <a href="https://www.facebook.com/Da-Ra-Music-802931670060901" target="_blank"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col contact-element">
-                            <i class="fab fa-youtube"></i>
+                            <a href="https://www.youtube.com/channel/UCJtS-z9cAp3Bfs5aXOvpEgw" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col contact-element">
-                            <i class="fab fa-instagram-square"></i>
+                            <a href="https://www.instagram.com/dara.music.official/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                         </div>
                     </div>
                 </div>
@@ -328,13 +328,13 @@
             </div>
             <div class="row contact-row">
                 <div class="col-4 social-icon">
-                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/Da-Ra-Music-802931670060901" target="_blank"><i class="fab fa-facebook"></i></a>
                 </div>
                 <div class="col-4 social-icon">
-                    <i class="fab fa-youtube"></i>
+                    <a href="https://www.youtube.com/channel/UCJtS-z9cAp3Bfs5aXOvpEgw" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
                 <div class="col-4 social-icon">
-                    <i class="fab fa-instagram-square"></i>
+                    <a href="https://www.instagram.com/dara.music.official/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                 </div>
             </div>
         </div>
@@ -348,7 +348,7 @@
                 <label for="message">Message:</label>
                 <textarea rows="5" name="message" id="message" class="form-control" required=""></textarea>
                 <div id="message-btn-wrapper">
-                    <button type="submit" id="message-btn"><i class="fas fa-paper-plane"></i> Send</button>
+                    <button type="submit" id="message-btn"><p><i class="fas fa-paper-plane"></i> Send</p></button>
                 </div>
             </form>
         </div>
@@ -358,7 +358,7 @@
         <section id="ftr-element-container">
             <!--------------link-to-videos---------------->
             <div id="play-btn" class="ftr-element">
-                <a href="#"><i class="far fa-play-circle"></i></a>
+                <a href="#video-section"><i class="far fa-play-circle"></i></a>
             </div>
             <!--------------contact-footer-1 (seen on screen sizes above 965px)---------------->
             <div id="cnt-info-wrapper-1" class="ftr-element">
@@ -380,9 +380,9 @@
             </div>
             <!--------------social-links---------------->
             <div id="social-links" class="ftr-element">
-                <div><a href="#"><i class="fab fa-facebook"></i></a></div>
-                <div><a href="#"><i class="fab fa-youtube-square"></i></a></div>
-                <div><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+                <div><a href="https://www.facebook.com/Da-Ra-Music-802931670060901" target="_blank"><i class="fab fa-facebook"></i></a></div>
+                <div><a href="https://www.youtube.com/channel/UCJtS-z9cAp3Bfs5aXOvpEgw" target="_blank"><i class="fab fa-youtube-square"></i></a></div>
+                <div><a href="https://www.instagram.com/dara.music.official/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
             </div>
         </section>
     </footer>

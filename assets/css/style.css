@@ -9,7 +9,7 @@ body {
 
 /*---------------------------------------------------header*/
 .navbar {
-    background-color: rgba(183, 110, 121, .4);
+    background-color: rgba(124, 124, 124, .4);
     max-height: 80px;
     position: absolute;
     z-index: 10;
@@ -22,7 +22,7 @@ body {
 }
 
 .logo a {
-    color: rgb(45, 240, 240);
+    color: rgb(238, 229, 233);
     font-size: 45px;
     text-decoration: none;
 }
@@ -33,15 +33,15 @@ div ul li {
     padding: 0 5px;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(183, 110, 121);
+    color: rgb(238, 229, 233);
 }
 
 div ul li a {
-    color: rgb(45, 240, 240);
+    color: rgb(238, 229, 233);
 }
 
 div ul li a:hover {
-    color: rgba(45, 240, 240, .7);
+    color: rgba(238, 229, 233, .7);
 }
 
 .no-border {
@@ -49,7 +49,7 @@ div ul li a:hover {
 }
 
 .navbar-toggler-icon {
-    color: rgb(45, 240, 240);
+    color: rgb(238, 229, 233);
     margin-top: 30%;
     font-size: 1.5em;
 }
@@ -93,7 +93,7 @@ div ul li a:hover {
     z-index: 99;
     cursor: pointer;
     font-size: 50px;
-    color: rgb(45, 240, 240);
+    color: rgb(238, 229, 233);
     z-index: 10;
 }
 
@@ -125,7 +125,7 @@ div ul li a:hover {
     width: 3.5vw;
     height: 3px;
     margin: 0 3px;
-    background-color: rgba(45, 240, 240, .3);
+    background-color: rgba(238, 229, 233, .3);
 }
 
 /*---------------------------------------------------checked-image-settings*/
@@ -143,7 +143,7 @@ div ul li a:hover {
 #img-3:checked ~ #nav-wrapper .nav #bar-3,
 #img-4:checked ~ #nav-wrapper .nav #bar-4,
 #img-5:checked ~ #nav-wrapper .nav #bar-5 {
-    background-color: rgb(45, 240, 240);
+    background-color: rgb(238, 229, 233);
 }
 
 /*---------------------------------------------------callout*/
@@ -159,17 +159,17 @@ div ul li a:hover {
     top: 54%;
     text-align: center;
     font-weight: 400;
-    color: rgba(45, 240, 240);
-    text-shadow: 1px 1px 60px black;
+    color: rgba(124, 124, 124);
+    text-shadow: 1px 1px 1px rgba(238, 229, 233);
     z-index: 10;
 }
 
 #callout h1 div {
     font-family: "Big Shoulders Inline Text";
     font-weight: 900;
-    color: rgba(45, 240, 240);
+    color: rgba(124, 124, 124);
     padding: 0px 15px;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
 }
 
 .cta-home {
@@ -177,10 +177,10 @@ div ul li a:hover {
     text-shadow: none;
     padding: 10px 30px;
     border-radius: 35px;
-    color: rgb(183, 110, 121);
+    color: rgb(124, 124, 124);
     font-size: .8em;
     font-weight: 600;
-    background-color: rgba(45, 240, 240, .9);
+    background-color: rgba(238, 229, 233, .9);
     z-index: 10;
 }
 
@@ -188,8 +188,8 @@ div ul li a:hover {
 .cta-home:active,
 .cta-home:focus,
 .cta-home:active:focus {
-    background-color: rgba(183, 110, 121, .9);
-    color: rgb(45, 240, 240);
+    background-color: rgba(124, 124, 124, .9);
+    color: rgb(238, 229, 233);
     text-decoration: none;
 }
 
@@ -203,10 +203,11 @@ div ul li a:hover {
     width: 100;
     text-align: center;
     font-family: "Big Shoulders Inline Text";
+    text-shadow: 1px 1px rgba(238, 229, 233);
     font-weight: 900;
     font-size: 50px;
     margin: 1% 0 -.5%;
-    color: rgb(183, 110, 121);
+    color: rgb(124, 124, 124);
 }
 
 #outer-circle {
@@ -214,7 +215,7 @@ div ul li a:hover {
     width: 340px;
     height: 340px;
     border-radius: 50%;
-    border-bottom: 1px solid rgb(45, 240, 240);
+    border-bottom: 1px solid rgb(243, 178, 114);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,7 +223,7 @@ div ul li a:hover {
 
 #outer-circle:hover {
     border-bottom: 1px solid white;
-    border-top: 1px solid rgb(45, 240, 240);
+    border-top: 1px solid rgb(243, 178, 114);
 }
 
 #mid-circle {
@@ -230,7 +231,7 @@ div ul li a:hover {
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    border-right: 1px solid rgb(45, 240, 240);
+    border-right: 1px solid rgb(243, 178, 114);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -239,7 +240,7 @@ div ul li a:hover {
 
 #mid-circle:hover {
     border-right: 1px solid white;
-    border-left: 1px solid rgb(45, 240, 240);
+    border-left: 1px solid rgb(243, 178, 114);
 }
 
 #inner-circle {
@@ -247,8 +248,8 @@ div ul li a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border-top: 1px solid rgb(45, 240, 240);
-    border-left: 1px solid rgb(45, 240, 240);
+    border-top: 1px solid rgb(243, 178, 114);
+    border-left: 1px solid rgb(243, 178, 114);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -257,7 +258,7 @@ div ul li a:hover {
 
 #inner-circle:hover {
     border-top: 1px solid white;
-    border-bottom: 1px solid rgb(45, 240, 240);
+    border-bottom: 1px solid rgb(243, 178, 114);
 }
 
 #about-pic {
@@ -268,7 +269,7 @@ div ul li a:hover {
 #about-pic img {
     width: 280px;
     height: 280px;
-    border: 1px solid rgb(183, 110, 121);
+    border: 1px solid rgb(243, 178, 114);
     border-radius: 50%;
     object-fit: cover;
     align-items: center;
@@ -290,12 +291,13 @@ div ul li a:hover {
     display: inline-block;
     margin: 0 15px;
     text-align: center;
-    color: rgb(95, 97, 99);
+    color: rgba(124, 124, 124, .6);
 }
 
 .info h2 {
     font-size: 150%;
-    color: rgb(183, 110, 121);
+    color: rgb(124, 124, 124);
+    text-shadow: 1px 1px rgba(238, 229, 233);
 }
 
 .info h2:hover {
@@ -311,17 +313,17 @@ div ul li a:hover {
 
 #cta-about {
     border-radius: 35px;
-    color: rgba(45, 240, 240, .9);
+    color: rgba(243, 178, 114, .9);
     font-size: 2em;
     font-weight: 600;
-    background-color: rgb(183, 110, 121);
+    background-color: rgb(124, 124, 124);
     padding: 5px 20px;
 }
 
 #cta-about:hover {
     text-decoration: none;
-    background-color: rgb(45, 240, 240);
-    color: rgba(183, 110, 121, .9);
+    background-color: rgba(243, 178, 114, .9);
+    color: rgba(124, 124, 124, .9);
 }
 
 /*---------------------------------------------------carousel*/
@@ -353,36 +355,37 @@ div ul li a:hover {
 }
 
 .carousel-indicators li {
-    background-color: rgb(183, 110, 121);
+    background-color: rgb(124, 124, 124);
     margin-bottom: 10px;
 }
 
 .carousel-control-prev span,
 .carousel-control-next span {
-    color: rgb(183, 110, 121);
+    color: rgb(124, 124, 124);
     font-size: 50px;
 }
 
 .carousel-item {
     text-align: center;
-    color: rgb(95, 97, 99);
+    color: rgba(124, 124, 124, .6);
 }
 
 .carousel-item h2 {
-    color: rgb(183, 110, 121);
+    color: rgb(124, 124, 124);
 }
 
 /*---------------------------------------------------video-section*/
 #video-section {
     width: 100%;
-    background-color: rgba(183, 110, 121);
+    background-color: rgba(124, 124, 124);
     min-height: 100vh;
 }
 
 #video-section h1 {
     text-align: center;
     font-family: "Big Shoulders Inline Text";
-    color: rgb(45, 240, 240);
+    color: rgb(238, 229, 233);
+    text-shadow: 1px 1px rgba(243, 178, 114, .2);
     font-weight: 900;
     font-size: 50px;
     padding: 20px 0 0;
@@ -395,15 +398,18 @@ div ul li a:hover {
 .video {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .video-header {
     position: absolute;
     font-size: 10px;
+    color: rgba(243, 178, 114, .7);
 }
 
 .video-header h3 {
     font-size: 20px;
+    font-weight: 300;
 }
 
 iframe {
@@ -417,7 +423,7 @@ iframe {
 }
 
 #youtube-btn {
-    color: rgba(45, 240, 240);
+    color: rgba(243, 178, 114);
     margin-bottom: 20px;
 }
 
@@ -429,24 +435,27 @@ iframe {
 
 #cta-contact {
     border-radius: 35px;
-    color: rgb(183, 110, 121);
+    color: rgba(243, 178, 114, .8);
     font-size: 2em;
     font-weight: 600;
-    background-color: rgba(45, 240, 240);
+    background-color: rgba(238, 229, 233);
     padding: 5px 20px;
     margin-bottom: 20px;
 }
 
 #cta-contact:hover {
     text-decoration: none;
-    background-color: rgba(45, 240, 240, .8);
+    background-color: rgba(243, 178, 114, .8);
+    color: rgba(238, 229, 233);
 }
 
 /*---------------------------------------------------contact-section-1*/
+
+
 #contact h1 {
     text-align: center;
     font-family: "Big Shoulders Inline Text";
-    color: rgba(183, 110, 121);
+    color: rgba(243, 178, 114);
     font-weight: 900;
     font-size: 50px;
     padding: 20px 0 0;
@@ -455,7 +464,7 @@ iframe {
 
 .contact-heading {
     text-align: center;
-    color: rgba(183, 110, 121);
+    color: rgba(124, 124, 124);
     margin: 40px;
 }
 
@@ -474,20 +483,27 @@ iframe {
 
 .contact-element {
     margin: 20px;
-    color: rgba(45, 240, 240, .8);
+    color: rgba(124, 124, 124, .6);
 }
 
 .contact-element p {
     overflow: hidden;
     font-size: 2.2vw;
-    color: rgb(95, 97, 99);
     margin-top: 35px;
 }
 
 .contact-element span {
     font-size: 40px;
-    color: rgb(95, 97, 99);
     margin: 35px 0;
+}
+
+.contact-element a {
+    color: rgba(243, 178, 114);
+    text-shadow: none;
+}
+
+.contact-element a:hover {
+    color: rgba(243, 178, 114, .6);
 }
 
 /*---------------------------------------------------contact-section-2*/
@@ -499,26 +515,33 @@ iframe {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: rgb(95, 97, 99);
+    color: rgba(124, 124, 124, .9);
 }
 
 .contact-item {
     display: flex;
     justify-content: center;
     font-size: 3vw;
-    color: rgb(95, 97, 99);
+    color: rgba(124, 124, 124, .9);
 }
 
 .social-icon {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: rgba(45, 240, 240, .8);
+}
+
+.social-icon a {
+    color: rgb(243, 178, 114);
+}
+
+.social-icon a:hover {
+    color: rgba(243, 178, 114, .6);
 }
 
 hr {
     width: 60%;
-    background-color: rgba(183, 110, 121);
+    background-color: rgba(243, 178, 114);
     margin-top: -20px;
 }
 
@@ -527,8 +550,8 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
-    color: rgba(183, 110, 121);
-    margin: 30px;
+    color: rgba(124, 124, 124);
+    margin-bottom: 30px;
 }
 
 form {
@@ -549,17 +572,26 @@ form textarea {
 #message-btn {
     border-style: none;
     border-radius: 35px;
-    color: rgba(45, 240, 240);
+    color: rgba(124, 124, 124);
     font-size: 1.3em;
     font-weight: 600;
-    background-color: rgb(183, 110, 121);
+    background-color: rgb(243, 178, 114);
     padding: 6px 24px;
+}
+
+#message-btn:hover {
+    background-color: rgb(124, 124, 124);
+    color: rgb(243, 178, 114);
+}
+
+#message-btn p {
+    margin: 0;
 }
 
 /*---------------------------------------------------footer*/
 footer {
-    background-color: rgb(183, 110, 121);
-    color: rgb(45, 240, 240);
+    background-color: rgb(124, 124, 124);
+    color: rgb(243, 178, 114);
     height: 80px;
 }
 
@@ -579,12 +611,15 @@ footer {
 #play-btn {
     width: 20%;
     border-right: 1px solid;
-    color: rgb(45, 240, 240);
 }
 
 #play-btn a {
-    color: rgb(45, 240, 240);
+    color: rgb(243, 178, 114);
     font-size: 40px;
+}
+
+#play-btn a:hover {
+    color: rgba(243, 178, 114, .6);
 }
 
 #cnt-info-wrapper-1 {
@@ -639,8 +674,12 @@ footer {
 }
 
 #social-links div a {
-    color: rgb(45, 240, 240);
+    color: rgb(243, 178, 114);
     font-size: 3vw;
+}
+
+#social-links div a:hover {
+    color: rgba(243, 178, 114, .6);
 }
 
 /*---------------------------------------------------media-queries-width*/
@@ -656,6 +695,10 @@ footer {
 
     #social-links div a {
         font-size: 4vw;
+    }
+
+    .video-header h3 {
+        font-size: 15px;
     }
 }
 
@@ -726,6 +769,10 @@ footer {
 
     #callout h1 div {
         font-size: 40px;
+    }
+
+    .video-header h3 {
+        font-size: 2.5vw;
     }
 }
 
