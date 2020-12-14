@@ -1,45 +1,64 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# DaRa Website
+View the live project [here](https://darraghreid.github.io/dara-MS1/)
 
-Welcome DarraghReid,
+This website was created for Code Institute's Milestone 1 Project as part of the Diploma in Full Stack Web Development. 
+The purpose of this project is to demonstrate the student's knowledge and skills aquired thus far in the course. 
+This includes skills in HTML, CSS, as well as other User Centric Design skills as outlined in the Technologies section.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This site was created for the musician, DaRa. It is designed for those who wish to listen to his music and contact him, if they wish. 
+The site has been designed to be fully responsive across most devices and browsers.
 
-## Gitpod Reminders
+## User Experience (UX)
+* User Stories
+    * First Time User Goals:  
+        1. As a first time visitor, I want to immediately understand the purpose of the site.
+        2. As a first time visitor, I want to be able to easily navigate through the site to find what I'm looking for.
+        3. As a first time visitor, I want to instinctively know what to do in order to listen to the site owner's music.
+        4. As a first time visitor, I want to be able to easily contact the site owner from the site.
+    
+    * Returning User Goals:  
+        1. As a returning user, I want to be able to check for new videos and music.
+        2. As a returning user, I want to know the best ways in which I can follow and contact the site owner.
+    
+    * Site Owner Goals:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+        1. As the site owner, I want to be able to showcase my work.
+        2. As the site owner, I want to be able to provide a platform to followers where they can stay up to date with my music.
+        3. As the site owner, I want users to be be able to contact me easily.
+    
+## Structure 
 
-`python3 -m http.server`
+The site is designed as a single webpage with multiple sections. 
+Each section is linked to in the home page as well as in call-to-action buttons throughout the site.
+This should result in fast and intuitive navigation.
 
-A blue button should appear to click: *Make Public*,
+The navigation bar is structured from left to right in order of importance,
+though the "about" and "listen" sections are swapped when scrolling for visual reasons.
 
-Another blue button should appear to click: *Open Browser*.
+## Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Colour Scheme
+    * The colours used in this project are rgb(124, 124, 124)/dark grey, rgb(238, 229, 233)/beige-pink, and rgb(243, 178, 114)/orange-yellow.
+    The beige-pink and orange-yellow compliment the colour scheme of the content (images and videos) while the dark grey offers a good dark constrast to the other two.
 
-A blue button should appear to click: *Make Public*,
+* Typeography
+    * The fonts used throughout the site are Roboto and Big Shoulders Inline Text
+    Big Shoulders Inline Text is used for the logo as well as all H1 headings,
+    while Roboto is used in all other instances.
 
-Another blue button should appear to click: *Open Browser*.
+* Imagery
+    * All imagery was supplied by the artist. 
+    The images used in the homepage carousel were carefully chosen to give users immediate confirmation as to the type of site they are visiting.
+    As mentioned in the User Stories section, it is important for users to immediately understand the purpose of the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    The image used in the "About" section was carefully chosen to represent who DaRa is as an artist.
 
-## Updates Since The Instructional Video
+## Wireframes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+For a full PDF of this site's Wireframes click [here](). 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![DaRa](assets/images/pic-2.jpg "DaRa")
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Differences between wireframes and final product.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Features

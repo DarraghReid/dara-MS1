@@ -752,7 +752,7 @@ footer {
     .nav-item {
         width: 100%;
         border: none;
-        background-color: rgba(183, 110, 121, .4);
+        background-color: rgba(124, 124, 124, .3);
         margin-top: 2px;
         float: right;
         border-radius: 23px;
