@@ -82,7 +82,8 @@ The live site displays 3 videos per row on large screens, and two videos per row
 
 * Home Page 
     * The home page inclused a responsive navbar. 
-    The menu items collapse into a single button on smaller screens.
+    The menu items collapse into a single button on smaller screens. 
+    The button would not display. The button you see in the finished site is a Fontawesome icon.
 
     * Another feature of the Home Page is the image carousel. 
     This is one of two carousels in the site. 
@@ -104,6 +105,8 @@ The live site displays 3 videos per row on large screens, and two videos per row
         Of course, classes, labels and ids were changed to suite the site. 
         There is also more content in my carousel, and so more code had to be added. 
         For this reason, the radio buttons were given a common class to be addressed in style.css to reduce code clutter.
+
+        Much effort was put in to centering, containing, and maintaining the aspect ratio of each of the images at different screen sizes.
 
     * A call to action button is also featured on the Home Page. 
     When clicked, the user is brought to the video section of the site where they can listen to the artist's music.
@@ -129,3 +132,63 @@ The live site displays 3 videos per row on large screens, and two videos per row
     An extra div to contain the carousel was also needed to center the slider itself due to its modified dimensions.
 
     While most class names remained the same due to their built-in Bootstrap properties, the were extensively modified in the CSS.
+
+    * The About section also contains another call-to-action button which, agian, directs users to the Listen section.
+
+* Listen Section
+
+    * The Listen section contains a selection of DaRa's YouTube videos.
+    They were coded into the page using the iframe HTML tag and a Bootstrap grid system.
+    The section is designed to display 3 videos per row on larger screens, and two videos per row on smaller screen sizes.
+
+    Also contained in this section is a link "Watch on YouTube" which opens up DaRa's YouTube channel in a separate tab.
+
+    The Listen section also contains a call-to-action button which directs users to the Contact section.
+
+* Contact Section
+
+    * The Contact section contains two separate section.
+    The first section contains phone and email information, as well as DaRa's social media & YouTube links, represented by icons, which open up in separate tabs.
+    This section condences into a more streamlined version on smaller screen sizes.
+
+    The second section is a contact form which users can fill out to contact DaRa. 
+    Due to the limitations of the MS1 project, where only HTML and CSS can be used, the infromation input into this form will not be sent or stored anywhere.
+
+* Footer
+    * The footer contains the sections, layed our horizonally from left to right.
+    The first section is a play button icon which brings users to the video section when clicked.
+
+    The middle section contains the phone and email information of DaRa. On larger screens the information is displayed side-by-side, whereas on smaller screens, they are placed one on top of the other.
+
+    The third section contains DaRa's social media & YouTube links, represnted by icons, which open in separate tabs. 
+
+
+Each of the features is responsive on all devices.
+
+## Technologies Used 
+
+### Languages Used 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries & Programs Used
+* [Balsamiq](https://balsamiq.com/)
+    * Balsamiq was used to make the wireframes for the project
+* [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+    * Bootstrap was used in conjuction with jQuery the Navbar to make it responsive and to collapse the menu items into a single button at samller screen sizes.
+
+        Boostrap was also used along with jQuery for the carousel in the About section, as well the grid system in the Listen section.
+
+        All of these features are discussed in the Features section of this README.md.
+        
+* [Font Awesome](https://fontawesome.com/)
+    * Fontawesome was used throughout the site.
+    All buttons use Fontawesome icons, as do the the h2 elements in the About section, the phone and emails symbols in the Contact section, and the social media & YouTube icons in the Contact and Footer sections. 
+* [Git](https://git-scm.com/)
+    * The Gitpod terminal to commit to Git and push to Github.
+* [GitHub](https://github.com/)
+    * Github was used to store the code from the project.
+* [Google Fonts](https://fonts.google.com/)
+    * The two fonts used in the project (Roboto and Big Shoulders Inline Text) were imported from Google Fonts.
+* [jQuery](https://jquery.com/)
+    * jQuery was used in conjuction with Boostrap on the Navbar and Carousel.
