@@ -231,7 +231,7 @@ W3C CSS Validator - Results
         * Users can visit this site as often as they like to check for new uploads.
 
     3. As the site owner, I want users to be be able to follow and contact me easily.
-        The contact section offer multiple ways in which users can follow and gitcontact DaRa.
+        The contact section offer multiple ways in which users can follow and contact DaRa.
 
 ## Deployment
 
