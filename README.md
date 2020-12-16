@@ -3,7 +3,7 @@ View the live project [here](https://darraghreid.github.io/dara-MS1/)
 
 This website was created for Code Institute's Milestone 1 Project as part of the Diploma in Full Stack Web Development. 
 The purpose of this project is to demonstrate the student's knowledge and skills aquired thus far in the course. 
-This includes skills in HTML, CSS, as well as other User Centric Design skills as outlined in the Technologies section.
+This includes skills in HTML, CSS, as well as other User Centric Design skills as outlined in the [Technologies Used](#Technologies-Used) section.
 
 This site was created for the musician, DaRa. It is designed for those who wish to listen to his music and contact him, if they wish. 
 The site has been designed to be fully responsive across most devices and browsers.
