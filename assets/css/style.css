@@ -379,7 +379,6 @@ div ul li a:hover {
 #video-section {
     width: 100%;
     background-color: rgba(124, 124, 124);
-    min-height: 100vh;
 }
 
 #video-section h1 {
