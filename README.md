@@ -48,10 +48,9 @@ though the "about" and "listen" sections are swapped when scrolling for visual r
     The images used in the homepage carousel were carefully chosen to give users immediate confirmation as to the type of site they are visiting.
     As mentioned in the User Stories section, it is important for users to immediately understand the purpose of the site.
 
-    The image used in the "About" section was carefully chosen to represent who DaRa is as an artist.
+        The image used in the "About" section was carefully chosen to represent who DaRa is as an artist.
 
 ## Wireframes
-For a full PDF of this site's Wireframes click [here](). 
 
 Wireframe of Home Page
 ![Wireframe of Home Page](assets/images/wireframe-home.png)
@@ -117,20 +116,20 @@ The live site displays 3 videos per row on large screens, and two videos per row
     * Another feature of the About section is the information section which collapses into a carousel on smaller screens.
     For this carousel, I decided to use a Bootstrap 4 carousel template.
 
-    Again, this carousel was heavily edited to suit the site.
-    Firstly, my carousel is text based, whereas the Bootstrap carousel is imaged based. 
-    Much tweaking was required here to get the text into the required positions.
+        Again, this carousel was heavily edited to suit the site.
+        Firstly, my carousel is text based, whereas the Bootstrap carousel is imaged based. 
+        Much tweaking was required here to get the text into the required positions.
 
-    I removed the Bootstrap navigation arrows and inserted my own arrows to match the slider in the home page.
-    The arrows on my carousel appear on the outside of the content rather than overlaying on top of the content, which is the case with the Bootstraps carousel.
+        I removed the Bootstrap navigation arrows and inserted my own arrows to match the slider in the home page.
+        The arrows on my carousel appear on the outside of the content rather than overlaying on top of the content, which is the case with the Bootstraps carousel.
 
-    All styles including sizes and colours have been changed from the original Bootstrap carousel.
-    The only remaining feature that bears are resemblance to the the Bootstrap template is the shape of the navigation bars at the bottom of the slider.
+        All styles including sizes and colours have been changed from the original Bootstrap carousel.
+        The only remaining feature that bears are resemblance to the the Bootstrap template is the shape of the navigation bars at the bottom of the slider.
 
-    There were extra slides in my carousel and so more code had to be added. 
-    An extra div to contain the carousel was also needed to center the slider itself due to its modified dimensions.
+        There were extra slides in my carousel and so more code had to be added. 
+        An extra div to contain the carousel was also needed to center the slider itself due to its modified dimensions.
 
-    While most class names remained the same due to their built-in Bootstrap properties, the were extensively modified in the CSS.
+        While most class names remained the same due to their built-in Bootstrap properties, the were extensively modified in the CSS.
 
     * The About section also contains another call-to-action button which, agian, directs users to the Listen section.
 
@@ -140,9 +139,9 @@ The live site displays 3 videos per row on large screens, and two videos per row
     They were coded into the page using the iframe HTML tag and a Bootstrap grid system.
     The section is designed to display 3 videos per row on larger screens, and two videos per row on smaller screen sizes.
 
-    Also contained in this section is a link "Watch on YouTube" which opens up DaRa's YouTube channel in a separate tab.
+        Also contained in this section is a link "Watch on YouTube" which opens up DaRa's YouTube channel in a separate tab.
 
-    The Listen section also contains a call-to-action button which directs users to the Contact section.
+        The Listen section also contains a call-to-action button which directs users to the Contact section.
 
 * Contact Section
 
@@ -150,16 +149,16 @@ The live site displays 3 videos per row on large screens, and two videos per row
     The first section contains phone and email information, as well as DaRa's social media & YouTube links, represented by icons, which open up in separate tabs.
     This section condences into a more streamlined version on smaller screen sizes.
 
-    The second section is a contact form which users can fill out to contact DaRa. 
-    Due to the limitations of the MS1 project, where only HTML and CSS can be used, the infromation input into this form will not be sent or stored anywhere.
+        The second section is a contact form which users can fill out to contact DaRa. 
+        Due to the limitations of the MS1 project, where only HTML and CSS can be used, the infromation input into this form will not be sent or stored anywhere.
 
 * Footer
     * The footer contains the sections, layed our horizonally from left to right.
     The first section is a play button icon which brings users to the video section when clicked.
 
-    The middle section contains the phone and email information of DaRa. On larger screens the information is displayed side-by-side, whereas on smaller screens, they are placed one on top of the other.
+        The middle section contains the phone and email information of DaRa. On larger screens the information is displayed side-by-side, whereas on smaller screens, they are placed one on top of the other.
 
-    The third section contains DaRa's social media & YouTube links, represnted by icons, which open in separate tabs. 
+        The third section contains DaRa's social media & YouTube links, represnted by icons, which open in separate tabs. 
 
 
 Each of the features is responsive on all devices.
@@ -178,7 +177,7 @@ Each of the features is responsive on all devices.
 
         Boostrap was also used along with jQuery for the carousel in the About section, as well the grid system in the Listen section.
 
-        All of these features are discussed in the Features section of this README.md.
+        All of these features are discussed in the [Features](#Features) section of this README.md.
         
 * [Font Awesome](https://fontawesome.com/)
     * Fontawesome was used throughout the site.
@@ -197,6 +196,7 @@ Each of the features is responsive on all devices.
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate this project's code and to make sure there were no syntax errors in the project.
 
 W3C Markup Validator - [Final Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarraghreid.github.io%2Fdara-MS1%2F)
+
 W3C CSS Validator - [Final Results](https://jigsaw.w3.org/css-validator/validator)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -219,7 +219,7 @@ W3C CSS Validator - [Final Results](https://jigsaw.w3.org/css-validator/validato
         * "Listen" is also the second button in the menu in the navigation bar.
 
 * Returning User Goals:  
-    4. As a returning user, I want to know the best ways in which I can follow and contact the site owner. 
+    1. As a returning user, I want to know the best ways in which I can follow and contact the site owner. 
         * The contact section has clearly displayed contact information as well as a contact form from which users can send messages to DaRa.
         Due to the limitations of the project (HTML & CSS only), these messages will not be sent anywhere.
         * Links to DaRa's social media and YouTube accounts are clearly visible in the Contact section and footer.
@@ -238,7 +238,7 @@ W3C CSS Validator - [Final Results](https://jigsaw.w3.org/css-validator/validato
 
 ### Further Testing
 * This website was tested on Google Chrome, Safari, and Internet Explorer.
-* This website was tested on a Macbook Pro, iPhone 8, Huawei p30 light, Galaxy Ao1, and a Samsung Galaxy S10.
+* This website was tested on a Macbook Pro, iPhone 8, Huawei p30 light, Galaxy Ao1, OnePlus 5, and a Samsung Galaxy S10.
 * Extensive testing was done by the developer as well as family and friends on all screen sizes to see that the site was displaying correctly and links were working correctly.
 
 #### Errors and warnings encountered during testing
@@ -249,7 +249,7 @@ W3C Markup Validator
 I had the body outside of the html tags.
 * The next error was "The frameborder attribute on the iframe element is obsolete."
 I had to removed this attribute from the HTML. However, this resulted in an unwanted frame appearing around the videos.
-After some research, I addressed this issue by replacing the frameborder attribute with style="border:none".
+After some research, I addressed this issue by replacing the frameborder attribute with ' style="border:none" '.
 * The next error I got was "Element div not allowed as child of element h1 in this context."
 I replaced the div with a span element and set its display to "block" to fix it.
 * Like the previous error, my last error was "Element p not allowed as child of element button in this context."
@@ -267,7 +267,7 @@ W3C CSS Validator
 All errors and warnings were resolved.
 
 #### Other bugs encountered
-* On certain screens (iPad, ) The video section was elongated. 
+* On certain screens (iPad, OnePlus 5 ) The video section was elongated. 
 To address this I removed the min-height property from this section.
 
 
