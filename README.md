@@ -14,20 +14,18 @@ The site has been designed to be fully responsive across most devices and browse
         1. As a first time visitor, I want to immediately understand the purpose of the site.
         2. As a first time visitor, I want to be able to easily navigate through the site to find what I'm looking for.
         3. As a first time visitor, I want to instinctively know what to do in order to listen to the site owner's music.
-        4. As a first time visitor, I want to be able to easily contact the site owner from the site.
-    
+        4. As a returning user, I want to know the best ways in which I can follow and contact the site owner.
+
     * Returning User Goals:  
         1. As a returning user, I want to be able to check for new videos and music.
-        2. As a returning user, I want to know the best ways in which I can follow and contact the site owner.
     
     * Site Owner Goals:
 
         1. As the site owner, I want to be able to showcase my work.
         2. As the site owner, I want to be able to provide a platform to followers where they can stay up to date with my music.
-        3. As the site owner, I want users to be be able to contact me easily.
+        3. As the site owner, I want users to be be able to follow and contact me easily.
     
 ## Structure 
-
 The site is designed as a single webpage with multiple sections. 
 Each section is linked to in the home page as well as in call-to-action buttons throughout the site.
 This should result in fast and intuitive navigation.
@@ -36,7 +34,6 @@ The navigation bar is structured from left to right in order of importance,
 though the "about" and "listen" sections are swapped when scrolling for visual reasons.
 
 ## Design
-
 * Colour Scheme
     * The colours used in this project are rgb(124, 124, 124)/dark grey, rgb(238, 229, 233)/beige-pink, and rgb(243, 178, 114)/orange-yellow.
     The beige-pink and orange-yellow compliment the colour scheme of the content (images and videos) while the dark grey offers a good dark constrast to the other two.
@@ -54,7 +51,6 @@ though the "about" and "listen" sections are swapped when scrolling for visual r
     The image used in the "About" section was carefully chosen to represent who DaRa is as an artist.
 
 ## Wireframes
-
 For a full PDF of this site's Wireframes click [here](). 
 
 ![Wireframe of Home Page](assets/images/wireframe-home)
@@ -196,7 +192,6 @@ Each of the features is responsive on all devices.
 ## Deployment
 
 ### Project Creation
-
 This project was created by using the following steps:
 
 1. Log in to GitHub.
@@ -207,7 +202,6 @@ This project was created by using the following steps:
 6. When re-directed, select the green "Gitpod" button. 
 
 ### GitHub Pages
-
 This project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub.
@@ -217,3 +211,20 @@ This project was deployed to GitHub Pages using the following steps:
 5. Under "Source", click the dropdown named "None" and select "Master Branch".
 6. Click the "Save" button.
 7. Upon page refresh, scroll down and locate the link to the live deployed page.
+
+
+## Credits
+
+### Code 
+* As discussed in the Features Section, the code was for the slider in the Home Page was taken from YouTuber [Web Decorator](https://www.youtube.com/watch?v=z74ExMz-cWU) and was heavily edited.
+* The carousel in the About section is based off this [Bootstrap Template](https://getbootstrap.com/docs/4.5/components/carousel/) and is, again, heavily edited.
+
+### Content 
+* All content is was created by the developer.
+
+### Media
+* All videos and images were created by the developer.
+
+### Acknowledgements
+I would like to thank my mentor Gurjot Singh for his continuous support throughout the project.
+I would like to thank the slack community for their assistance, particularly Daisy Mc Girr who was always willing to share her wisdom and advice.
