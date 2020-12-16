@@ -215,7 +215,23 @@ W3C CSS Validator - Results
         * A "Listen" button with an earphones icon is clearly visible in the callout section of the home page.
         * "Listen" is also the second button in the menu in the navigation bar.
 
+* Returning User Goals:  
     4. As a returning user, I want to know the best ways in which I can follow and contact the site owner. 
+        * The contact section has clearly displayed contact information as well as a contact form from which users can send messages to DaRa.
+        Due to the limitations of the project (HTML & CSS only), these messages will not be sent anywhere.
+        * Links to DaRa's social media and YouTube accounts are clearly visible in the Contact section and footer.
+        * DaRa's YouTube account is also easy to navigate to from the Listen section of the site.
+
+    
+* Site Owner Goals:
+    1. As the site owner, I want to be able to showcase my work.
+        * The Listen section offers an effective way for DaRa to showcase his music videos.
+
+    2. As the site owner, I want to be able to provide a platform to followers where they can stay up to date with my music.
+        * Users can visit this site as often as they like to check for new uploads.
+
+    3. As the site owner, I want users to be be able to follow and contact me easily.
+        The contact section offer multiple ways in which users can follow and gitcontact DaRa.
 
 ## Deployment
 
