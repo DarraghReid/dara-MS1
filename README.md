@@ -191,10 +191,10 @@ Each of the features is responsive on all devices.
 
 
 ## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate this project's code and to make sure there were no syntax errors in the project.
 
-W3C Markup Validator - Results
-W3C CSS Validator - Results
+W3C Markup Validator - [Results]
+W3C CSS Validator - [Results]
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -232,6 +232,9 @@ W3C CSS Validator - Results
 
     3. As the site owner, I want users to be be able to follow and contact me easily.
         The contact section offer multiple ways in which users can follow and contact DaRa.
+
+### Further Testing
+* This website was tested on Google Chrome, Safari, and Internet Explorer.
 
 ## Deployment
 

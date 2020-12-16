@@ -201,7 +201,7 @@ div ul li a:hover {
 }
 
 #about h1 {
-    width: 100;
+    width: 100%;
     text-align: center;
     font-family: "Big Shoulders Inline Text";
     text-shadow: 1px 1px rgba(238, 229, 233);
@@ -406,6 +406,10 @@ div ul li a:hover {
     position: absolute;
     font-size: 10px;
     color: rgba(243, 178, 114, .7);
+}
+
+.video-header iframe {
+    border: 0;
 }
 
 .video-header h3 {
