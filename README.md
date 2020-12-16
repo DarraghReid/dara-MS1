@@ -189,6 +189,34 @@ Each of the features is responsive on all devices.
 * [jQuery](https://jquery.com/)
     * jQuery was used in conjuction with Boostrap on the Navbar and Carousel.
 
+
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+W3C Markup Validator - Results
+W3C CSS Validator - Results
+
+### Testing User Stories from User Experience (UX) Section
+
+* First time user goals
+    1. As a first time visitor, I want to immediately understand the purpose of the site.
+        * Upon entering the site, users are immediately presented with an image of the artist playing the guitar.
+        * The text in the callout section is immediately visible and indicates what the site is about.
+        * The "Listen" button in the callout section is also immediately visible and again indicates what the site is about.
+
+    2. As a first time visitor, I want to be able to easily navigate through the site to find what I'm looking for.
+        * The site is one page with four sections and is easy to scroll through.
+        * The navigation bar contains links to all sections on the site.
+        * Each section has a call-to-action button which will re-direct users to the most important sections. 
+        * The Contact section does not have a call-to-action button, but is located next to a footer with a link to the Listen section, contact information, and links to social media & YouTube.
+        * Links to YouTube and social media are present where appropriate throughout the site.
+
+    3. As a first time visitor, I want to instinctively know what to do in order to listen to the site owner's music.
+        * A "Listen" button with an earphones icon is clearly visible in the callout section of the home page.
+        * "Listen" is also the second button in the menu in the navigation bar.
+
+    4. As a returning user, I want to know the best ways in which I can follow and contact the site owner. 
+
 ## Deployment
 
 ### Project Creation
