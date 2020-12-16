@@ -170,6 +170,7 @@ div ul li a:hover {
     color: rgba(124, 124, 124);
     padding: 0px 15px;
     margin-bottom: 5vh;
+    display: block;
 }
 
 .cta-home {
