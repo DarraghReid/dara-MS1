@@ -192,3 +192,28 @@ Each of the features is responsive on all devices.
     * The two fonts used in the project (Roboto and Big Shoulders Inline Text) were imported from Google Fonts.
 * [jQuery](https://jquery.com/)
     * jQuery was used in conjuction with Boostrap on the Navbar and Carousel.
+
+## Deployment
+
+### Project Creation
+
+This project was created by using the following steps:
+
+1. Log in to GitHub.
+2. In the Repositories section, click the green "New" button.
+3. Under "Repository template", select "Code-Institute-Org/gitpod-full-template".
+4. Enter repository name (dara-MS1).
+5. Click "Create repository".
+6. When re-directed, select the green "Gitpod" button. 
+
+### GitHub Pages
+
+This project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub.
+2. Select repository.
+3. Navigate to and click the "Settings" button.
+4. When re-directed, scroll down to the "GitHub Pages" section.
+5. Under "Source", click the dropdown named "None" and select "Master Branch".
+6. Click the "Save" button.
+7. Upon page refresh, scroll down and locate the link to the live deployed page.
