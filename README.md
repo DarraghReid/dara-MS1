@@ -193,8 +193,34 @@ Each of the features is responsive on all devices.
 ## Testing
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate this project's code and to make sure there were no syntax errors in the project.
 
-W3C Markup Validator - [Results]
-W3C CSS Validator - [Results]
+W3C Markup Validator - [Final Results]
+W3C CSS Validator - [Final Results]
+
+#### Errors and warnings encountered during testing
+
+HTML
+
+*  The first error was "Stray body tag". 
+I had the body outside of the html tags.
+* The next error was "The frameborder attribute on the iframe element is obsolete."
+I had to removed this attribute from the HTML. However, this resulted in an unwanted frame appearing around the videos.
+After some research, I addressed this issue by replacing the frameborder attribute with style="border:none".
+* The next error I got was "Element div not allowed as child of element h1 in this context."
+I replaced the div with a span element and set its display to "block" to fix it.
+* Like the previous error, my last error was "Element p not allowed as child of element button in this context."
+Again, I remedied this my replacing the p element with a span element.
+
+* The first warning I got was "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment."
+This related to my comment having too many hyphens.
+* The other warning I got was "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections."
+This related to my footer section.
+To fix this I simply replaced the section selement with a div element.
+
+CSS
+* The only error encountered in my CSS was a missing % after a or of 100 of a height property.
+
+All errors and warnings were resolved.
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -235,6 +261,8 @@ W3C CSS Validator - [Results]
 
 ### Further Testing
 * This website was tested on Google Chrome, Safari, and Internet Explorer.
+* This website was tested on a Macbook Pro, iPhone 8, Huawei p30 light, Galaxy Ao1, and a Samsung Galaxy S10.
+* Extensive testing was done by the developer as well as family and friends on all screen sizes to see that the site was displaying correctly and links were working correctly.
 
 ## Deployment
 
