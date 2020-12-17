@@ -531,9 +531,9 @@ iframe {
     text-decoration: none;
 }
 
-.phone {
-    color: pink;
-    text-decoration: 0;
+#contact-phone {
+    color: rgba(124, 124, 124, .9);
+    text-decoration: none;
 }
 
 .social-icon {
@@ -672,6 +672,11 @@ footer {
 .cnt-info-2 i {
     margin-right: 30px;
     font-size: 20px;
+}
+
+#cnt-phone {
+    color: rgba(124, 124, 124, .9);
+    text-decoration: none;
 }
 
 #social-links {
