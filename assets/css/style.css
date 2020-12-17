@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    font-family: "Big Shoulders Inline Text";
+    font-family: "Big Shoulders Inline Text", sans-serif;
     font-weight: 900;
 }
 
@@ -165,7 +165,7 @@ div ul li a:hover {
 }
 
 #relaxed {
-    font-family: "Big Shoulders Inline Text";
+    font-family: "Big Shoulders Inline Text", sans-serif;
     font-weight: 900;
     color: rgba(124, 124, 124);
     padding: 0px 15px;
@@ -203,7 +203,7 @@ div ul li a:hover {
 #about h1 {
     width: 100%;
     text-align: center;
-    font-family: "Big Shoulders Inline Text";
+    font-family: "Big Shoulders Inline Text", sans-serif;
     text-shadow: 1px 1px rgba(238, 229, 233);
     font-weight: 900;
     font-size: 50px;
@@ -383,7 +383,7 @@ div ul li a:hover {
 
 #video-section h1 {
     text-align: center;
-    font-family: "Big Shoulders Inline Text";
+    font-family: "Big Shoulders Inline Text", sans-serif;
     color: rgb(238, 229, 233);
     text-shadow: 1px 1px rgba(243, 178, 114, .2);
     font-weight: 900;
@@ -458,7 +458,7 @@ iframe {
 
 #contact h1 {
     text-align: center;
-    font-family: "Big Shoulders Inline Text";
+    font-family: "Big Shoulders Inline Text", sans-serif;
     color: rgba(243, 178, 114);
     font-weight: 900;
     font-size: 50px;
@@ -597,6 +597,28 @@ form textarea {
 
 #message-btn p {
     margin: 0;
+}
+
+#back-to-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#back-to-top a {
+    color: rgba(243, 178, 114, .9);
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+#back-to-top span {
+    display: block;
+    clear: both;
+}
+
+#back-to-top a:hover {
+    color: rgba(243, 178, 114, .6);
 }
 
 /*---------------------------------------------------footer*/
