@@ -527,13 +527,13 @@ iframe {
     display: flex;
     justify-content: center;
     font-size: 3vw;
-    color: rgba(124, 124, 124, .9) !important;
+    color: rgba(124, 124, 124, .9);
     text-decoration: none;
 }
 
-.contact-item span {
-    color: rgba(124, 124, 124, .9) !important;
-    text-decoration: none !important;
+.phone {
+    color: pink;
+    text-decoration: 0;
 }
 
 .social-icon {
