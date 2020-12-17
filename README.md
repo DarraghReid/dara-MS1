@@ -6,7 +6,7 @@
 View the live project [here](https://darraghreid.github.io/dara-MS1/)
 
 This website was created for Code Institute's Milestone 1 Project as part of the Diploma in Full Stack Web Development. 
-The purpose of this project is to demonstrate the student's knowledge and skills aquired thus far in the course. 
+The purpose of this project is to demonstrate the student's knowledge and skills acquired thus far in the course. 
 This includes skills in HTML, CSS, as well as other User Centric Design skills as outlined in the [Technologies Used](#Technologies-Used) section.
 
 This site was created for the musician, DaRa. It is designed for those who wish to listen to his music and contact him, if they wish. 
@@ -40,9 +40,9 @@ though the "about" and "listen" sections are swapped when scrolling for visual r
 ## Design
 * Colour Scheme
     * The colours used in this project are rgb(124, 124, 124)/dark grey, rgb(238, 229, 233)/beige-pink, and rgb(243, 178, 114)/orange-yellow.
-    The beige-pink and orange-yellow compliment the colour scheme of the content (images and videos) while the dark grey offers a good dark constrast to the other two.
+    The beige-pink and orange-yellow compliment the colour scheme of the content (images and videos) while the dark grey offers a good dark contrast to the other two.
 
-* Typeography
+* Typography
     * The fonts used throughout the site are Roboto and Big Shoulders Inline Text.
     Big Shoulders Inline Text is used for the logo as well as all H1 headings,
     while Roboto is used in all other instances.
@@ -62,7 +62,7 @@ Wireframe of Home Page
 Wireframe of "Listen" section
 ![Wireframe of "Listen" section](assets/images/wireframe-listen.png)
 
-Wireframe of "Contant" section
+Wireframe of "Contact" section
 ![Wireframe of "Contact" section](assets/images/wireframe-contact.png)
 
 ### Differences between wireframes and final product.
@@ -83,7 +83,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
 ## Features
 
 * Home Page 
-    * The home page inclused a responsive navbar. 
+    * The home page includes a responsive navbar. 
     The menu items collapse into a single button on smaller screens. 
     The button would not display. The button you see in the finished site is a Fontawesome icon.
 
@@ -99,7 +99,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
         The most obvious difference between my carousel and Web Decorator's is that my carousel is designed to take up the whole viewport width and height and act as an underlay for all other Home Page content.
         This took further playing around with z-index, displays and positions to pull off.
         
-        Rather than clickable divs either side of the content to navigate to the next slide, I decided to condence them down into clickable arrows.
+        Rather than clickable divs either side of the content to navigate to the next slide, I decided to condense them down into clickable arrows.
         I felt that this would be more intuitive for users. 
         I also elected to display navigation bars rather than dots as I felt this fit better with the layout of the site.
 
@@ -135,7 +135,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
 
         While most class names remained the same due to their built-in Bootstrap properties, they were extensively modified in the CSS.
 
-    * The About section also contains another call-to-action button which, agian, directs users to the Listen section.
+    * The About section also contains another call-to-action button which, again, directs users to the Listen section.
 
 * Listen Section
 
@@ -151,18 +151,18 @@ The live site displays 3 videos per row on large screens, and two videos per row
 
     * The Contact section contains two separate sections.
     The first section contains phone and email information, as well as DaRa's social media & YouTube links, represented by icons, which open up in separate tabs.
-    This section condences into a more streamlined version on smaller screen sizes.
+    This section condenses into a more streamlined version on smaller screen sizes.
 
         The second section is a contact form which users can fill out to contact DaRa. 
-        Due to the limitations of the MS1 project, where only HTML and CSS can be used, the infromation input into this form will not be sent or stored anywhere.
+        Due to the limitations of the MS1 project, where only HTML and CSS can be used, the information input into this form will not be sent or stored anywhere.
 
 * Footer
-    * The footer contains three sections, layed our horizonally from left to right.
+    * The footer contains three sections, laid our horizontally from left to right.
     The first section is a play button icon which brings users to the video section when clicked.
 
         The middle section contains the phone and email information of DaRa. On larger screens the information is displayed side-by-side, whereas on smaller screens, they are placed one on top of the other.
 
-        The third section contains DaRa's social media & YouTube links, represnted by icons, which open in separate tabs. 
+        The third section contains DaRa's social media & YouTube links, represented by icons, which open in separate tabs. 
 
 
 Each of the features is responsive on all devices.
@@ -177,7 +177,7 @@ Each of the features is responsive on all devices.
 * [Balsamiq](https://balsamiq.com/)
     * Balsamiq was used to make the wireframes for the project
 * [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-    * Bootstrap was used in conjuction with jQuery the Navbar to make it responsive and to collapse the menu items into a single button at samller screen sizes.
+    * Bootstrap was used in conjunction with jQuery the Navbar to make it responsive and to collapse the menu items into a single button at smaller screen sizes.
 
         Boostrap was also used along with jQuery for the carousel in the About section, as well the grid system in the Listen section.
 
@@ -246,7 +246,7 @@ W3C CSS Validator
 
 ### Further Testing
 * This website was tested on Google Chrome, Safari, and Internet Explorer.
-* This website was tested on a Macbook Pro, iPhone 8, Huawei p30 light, Galaxy Ao1, OnePlus 5, and a Samsung Galaxy S10.
+* This website was tested on a MacBook Pro, iPhone 8, Huawei p30 light, Galaxy Ao1, OnePlus 5, and a Samsung Galaxy S10.
 * Extensive testing was done by the developer as well as family and friends on all screen sizes to see that the site was displaying correctly and links were working correctly.
 
 #### Errors and warnings encountered during testing
@@ -267,7 +267,7 @@ Again, I remedied this my replacing the p element with a span element.
 This related to my comment having too many hyphens.
 * The other warning I got was "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections."
 This related to my footer section.
-To fix this I simply replaced the section selement with a div element.
+To fix this I simply replaced the section element with a div element.
 
 ##### W3C CSS Validator
 * The only error encountered in my CSS was a missing % after a value of 100 of a height property.
@@ -281,7 +281,7 @@ To address this I removed the min-height property from this section.
 * On phone screens, the phone numbers were hyperlinked in blue.
 This was tricky to fix.
 No matter how specifically I targeted the phone numbers, they remained blue.
-I used "text-decoration: none" and even tried !imporatant.
+I used "text-decoration: none" and even tried !important.
 Eventually, after some more research, I enclosed the numbers in anchor tags with a href of "tel:0892510667".
 I then targeted the links in style.css by giving them specific ids, set their colours and set their text decoration to "none".
 The issue was resolved.
@@ -314,7 +314,7 @@ This project was deployed to GitHub Pages using the following steps:
 
 ### Forking the GitHub Repository
 
-Forking the GitHub repository allows us to make a copy of our original repository where changes can be made without affect the orignal copy.
+Forking the GitHub repository allows us to make a copy of our original repository where changes can be made without affect the original copy.
 To do this, follow these steps:
 
 1. Log in to GitHub.
