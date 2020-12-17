@@ -1,4 +1,8 @@
 # DaRa Website
+
+
+![DaRa Website](assets/images/amiresponsive.png)
+
 View the live project [here](https://darraghreid.github.io/dara-MS1/)
 
 This website was created for Code Institute's Milestone 1 Project as part of the Diploma in Full Stack Web Development. 
@@ -27,7 +31,7 @@ The site has been designed to be fully responsive across most devices and browse
     
 ## Structure 
 The site is designed as a single webpage with multiple sections. 
-Each section is linked to in the navigation bar in home page as well as in call-to-action buttons throughout the site.
+Each section is linked to in the navigation bar in the home page as well as in call-to-action buttons throughout the site.
 This should result in fast and intuitive navigation.
 
 The navigation bar is structured from left to right in order of importance,
@@ -39,13 +43,13 @@ though the "about" and "listen" sections are swapped when scrolling for visual r
     The beige-pink and orange-yellow compliment the colour scheme of the content (images and videos) while the dark grey offers a good dark constrast to the other two.
 
 * Typeography
-    * The fonts used throughout the site are Roboto and Big Shoulders Inline Text
+    * The fonts used throughout the site are Roboto and Big Shoulders Inline Text.
     Big Shoulders Inline Text is used for the logo as well as all H1 headings,
     while Roboto is used in all other instances.
 
 * Imagery
     * All imagery was supplied by the artist. 
-    The images used in the homepage carousel were carefully chosen to give users immediate confirmation as to the type of site they are visiting.
+    The images used in the home page carousel were carefully chosen to give users immediate confirmation as to the type of site they are visiting.
     As mentioned in the User Stories section, it is important for users to immediately understand the purpose of the site.
 
         The image used in the "About" section was carefully chosen to represent who DaRa is as an artist.
@@ -69,7 +73,7 @@ I felt, in order to create a more rounded site for the artist, an about section 
 
 * Also, since this is a single-paged site, there is just one footer.
 
-* Instead of a single image in the homepage, I decided a manual carousel was a better option.
+* Instead of a single image in the home page, I decided a manual carousel was a better option.
 
 * The layout of the video section also deviates from the wireframe. 
 The live site displays 3 videos per row on large screens, and two videos per row on medium and small screens.
@@ -92,7 +96,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
         It uses radio buttons and z-index to display a different image at a time.
 
         There are no stylistic similarities between Web Decorator's slider and the one you see in the finished DaRa site.
-        The most obvious difference between my carousel and Web Decorator's is that my carousel is designed to take up the whole viewport width and height and act as an underlay for all other HomePage content.
+        The most obvious difference between my carousel and Web Decorator's is that my carousel is designed to take up the whole viewport width and height and act as an underlay for all other Home Page content.
         This took further playing around with z-index, displays and positions to pull off.
         
         Rather than clickable divs either side of the content to navigate to the next slide, I decided to condence them down into clickable arrows.
@@ -124,12 +128,12 @@ The live site displays 3 videos per row on large screens, and two videos per row
         The arrows on my carousel appear on the outside of the content rather than overlaying on top of the content, which is the case with the Bootstraps carousel.
 
         All styles including sizes and colours have been changed from the original Bootstrap carousel.
-        The only remaining feature that bears are resemblance to the the Bootstrap template is the shape of the navigation bars at the bottom of the slider.
+        The only remaining feature that bears any resemblance to the the Bootstrap template is the shape of the navigation bars at the bottom of the slider.
 
         There were extra slides in my carousel and so more code had to be added. 
         An extra div to contain the carousel was also needed to center the slider itself due to its modified dimensions.
 
-        While most class names remained the same due to their built-in Bootstrap properties, the were extensively modified in the CSS.
+        While most class names remained the same due to their built-in Bootstrap properties, they were extensively modified in the CSS.
 
     * The About section also contains another call-to-action button which, agian, directs users to the Listen section.
 
@@ -145,7 +149,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
 
 * Contact Section
 
-    * The Contact section contains two separate section.
+    * The Contact section contains two separate sections.
     The first section contains phone and email information, as well as DaRa's social media & YouTube links, represented by icons, which open up in separate tabs.
     This section condences into a more streamlined version on smaller screen sizes.
 
@@ -153,7 +157,7 @@ The live site displays 3 videos per row on large screens, and two videos per row
         Due to the limitations of the MS1 project, where only HTML and CSS can be used, the infromation input into this form will not be sent or stored anywhere.
 
 * Footer
-    * The footer contains the sections, layed our horizonally from left to right.
+    * The footer contains three sections, layed our horizonally from left to right.
     The first section is a play button icon which brings users to the video section when clicked.
 
         The middle section contains the phone and email information of DaRa. On larger screens the information is displayed side-by-side, whereas on smaller screens, they are placed one on top of the other.
@@ -195,9 +199,13 @@ Each of the features is responsive on all devices.
 ## Testing
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate this project's code and to make sure there were no syntax errors in the project.
 
-W3C Markup Validator - [Final Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarraghreid.github.io%2Fdara-MS1%2F)
+W3C Markup Validator 
 
-W3C CSS Validator - [Final Results](https://jigsaw.w3.org/css-validator/validator)
+![W3C Markup Validator](assets/images/html-val.png)
+
+W3C CSS Validator 
+
+![W3C Markup Validator](assets/images/css-val.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -243,7 +251,7 @@ W3C CSS Validator - [Final Results](https://jigsaw.w3.org/css-validator/validato
 
 #### Errors and warnings encountered during testing
 
-W3C Markup Validator 
+##### W3C Markup Validator 
 
 *  The first error was "Stray body tag". 
 I had the body outside of the html tags.
@@ -261,14 +269,22 @@ This related to my comment having too many hyphens.
 This related to my footer section.
 To fix this I simply replaced the section selement with a div element.
 
-W3C CSS Validator
-* The only error encountered in my CSS was a missing % after a or of 100 of a height property.
+##### W3C CSS Validator
+* The only error encountered in my CSS was a missing % after a value of 100 of a height property.
 
 All errors and warnings were resolved.
 
 #### Other bugs encountered
 * On certain screens (iPad, OnePlus 5 ) The video section was elongated. 
 To address this I removed the min-height property from this section.
+
+* On phone screens, the phone numbers were hyperlinked in blue.
+This was tricky to fix.
+No matter how specifically I targeted the phone numbers, they remained blue.
+I used "text-decoration: none" and even tried !imporatant.
+Eventually, after some more research, I enclosed the numbers in anchor tags with a href of "tel:0892510667".
+I then targeted the links in style.css by giving them specific ids, set their colours and set their text decoration to "none".
+The issue was resolved.
 
 
 
@@ -296,6 +312,26 @@ This project was deployed to GitHub Pages using the following steps:
 6. Click the "Save" button.
 7. Upon page refresh, scroll down and locate the link to the live deployed page.
 
+### Forking the GitHub Repository
+
+Forking the GitHub repository allows us to make a copy of our original repository where changes can be made without affect the orignal copy.
+To do this, follow these steps:
+
+1. Log in to GitHub.
+2. Select your repository.
+3. Locate and click the "Fork" in the top right corner, under the nav bar.
+4. A copy of the original repository should have been created in your GitHub account.
+
+
+### Run Locally
+
+1. Log in to GitHub.
+2. Locate repository.
+3. Locate and click the "Code" dropdown menu.
+4. Under HTTPS, copy the URL.
+5. Open your development editor and a terminal window in your chosen directory.
+6. In the terminal, type "git clone " followed by the URL you copied in step 4 and press enter.
+7. A clone of the project should have been created.
 
 ## Credits
 
