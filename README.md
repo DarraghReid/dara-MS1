@@ -27,7 +27,7 @@ The site has been designed to be fully responsive across most devices and browse
     
 ## Structure 
 The site is designed as a single webpage with multiple sections. 
-Each section is linked to in the home page as well as in call-to-action buttons throughout the site.
+Each section is linked to in the navigation bar in home page as well as in call-to-action buttons throughout the site.
 This should result in fast and intuitive navigation.
 
 The navigation bar is structured from left to right in order of importance,

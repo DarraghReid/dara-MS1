@@ -527,7 +527,7 @@ iframe {
     display: flex;
     justify-content: center;
     font-size: 3vw;
-    color: rgba(124, 124, 124, .9);
+    color: rgba(124, 124, 124, .9) !important;
     text-decoration: none;
 }
 
