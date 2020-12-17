@@ -531,6 +531,11 @@ iframe {
     text-decoration: none;
 }
 
+.contact-item span {
+    color: rgba(124, 124, 124, .9) !important;
+    text-decoration: none !important;
+}
+
 .social-icon {
     display: flex;
     justify-content: center;
