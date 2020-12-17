@@ -177,7 +177,7 @@ Each of the features is responsive on all devices.
 * [Balsamiq](https://balsamiq.com/)
     * Balsamiq was used to make the wireframes for the project
 * [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-    * Bootstrap was used in conjunction with jQuery the Navbar to make it responsive and to collapse the menu items into a single button at smaller screen sizes.
+    * Bootstrap was used in conjunction with jQuery on the Navbar to make it responsive and to collapse the menu items into a single button at smaller screen sizes.
 
         Boostrap was also used along with jQuery for the carousel in the About section, as well the grid system in the Listen section.
 
